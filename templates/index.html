@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <h1>QR Code Generator</h1>
+
+    <form action="/generate_qr" method="POST">
+        <label for="link">Enter your link:</label>
+        <input type="text" id="link" name="link" required>
+        <button type="submit">Generate QR Code</button>
+    </form>
+
+    <!-- Check if qr code exists using Flask Jinja2 Template Engine-->
+    {% if qr_image %}
+        <h2>Codul QR generat:</h2>
+        <img src="{{ qr_image }}" alt="QR Code">
+
+        <!-- Download button --> 
+        <form action="/download_qr">
+            <button type="submit">Download</button>
+        </form>
+    {% endif %}
+</body>
+</html>
