@@ -2,13 +2,13 @@
 
 This is a simple web application for generating and downloading QR codes based on user-provided URLs. The application is built using Python with Flask for the backend and HTML/CSS for the frontend.
 
-## Features
+## Features 🌟
 
 - **Generate QR Codes**: Input a URL and generate a QR code.
 - **Download QR Codes**: Download the generated QR code as a PNG file.
 - **Responsive Design**: The page is styled to be visually appealing and functional on both desktop and mobile devices.
 
-## Technologies Used
+## Technologies Used 📂
 
 - **Python**: Programming language used for the backend.
 - **Flask**: Web framework for Python used to build the server-side logic.
@@ -16,7 +16,7 @@ This is a simple web application for generating and downloading QR codes based o
 - **qrcode**: Python library for generating QR codes.
 - **Jinja2**: Templating engine used by Flask for rendering HTML.
 
-## Installation and Setup
+## Installation and Setup 📚
 
 Follow these steps to set up and run the application locally:
 
@@ -61,7 +61,7 @@ Follow these steps to set up and run the application locally:
 
     By default, the application will be available at `http://127.0.0.1:5000/`.
 
-## Usage
+## Usage 📝
 
 1. **Open the Application**: Navigate to `http://127.0.0.1:5000/` in your web browser.
 2. **Generate a QR Code**:
@@ -70,14 +70,14 @@ Follow these steps to set up and run the application locally:
 3. **Download the QR Code**:
     - Click the "Download QR Code" button to download the QR code as a PNG file.
 
-## Project Structure
+## Project Structure 🚀
 
 - **`app.py`**: The main Python script containing the Flask application logic.
 - **`templates/index.html`**: The HTML template for the main page.
 - **`static/styles.css`**: The CSS file for styling the page.
 - **`requirements.txt`**: List of Python dependencies.
 
-## Contributing
+## Contributing 🎉
 
 Feel free to fork the repository and submit pull requests. For major changes or feature requests, please open an issue first to discuss what you would like to change.
 
